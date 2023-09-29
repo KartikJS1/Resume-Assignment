@@ -1,0 +1,85 @@
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    background-color: #6499E9;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 24px;
+}
+
+.contact,
+.education,
+.projects,
+.skills,
+.responsibilities,
+.achievements {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2,
+.education h2,
+.projects h2,
+.skills h2,
+.responsibilities h2,
+.achievements h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact ul,
+.education ul,
+.projects ul,
+.skills ul,
+.responsibilities ul,
+.achievements ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.contact li,
+.education li,
+.projects li,
+.skills li,
+.responsibilities li,
+.achievements li {
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #6499E9;
+    color: #fff;
+    padding: 10px;
+}
+
+span {
+    font-weight: bold;
+}
